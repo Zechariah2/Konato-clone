@@ -634,3 +634,140 @@ img{
 .bottomcont i{
     color: #00aeff;
 }
+
+@media (max-width: 480px) {
+    .headermenu {
+        flex-direction: column;
+        padding: 10px;
+        align-items: flex-start;
+    }
+
+    .logocontainer img {
+        width: 90px;
+        height: auto;
+    }
+
+    nav {
+        padding-left: 0;
+        font-size: 14px;
+    }
+
+    .headercontact {
+        font-size: 14px;
+        min-width: auto;
+    }
+
+    .form-oga {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0 10px;
+    }
+
+    .input-form input,
+    .select-form select {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .container {
+        height: auto;
+        padding: 20px;
+    }
+
+    .contain {
+        width: 100%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+}
+
+/* For Tablets (480px to 768px) */
+@media (max-width: 768px) {
+    .headermenu {
+        padding: 10px 20px;
+    }
+
+    .header-section2 {
+        padding: 10px 20px;
+    }
+
+    nav a {
+        font-size: 18px;
+        padding: 10px 5px;
+    }
+
+    .form-oga {
+        gap: 12px;
+        padding: 0 15px;
+    }
+
+    .input-form input,
+    .select-form select {
+        width: 100%;
+    }
+
+    .btn {
+        width: auto;
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    .contain {
+        width: 90%;
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .price {
+        font-size: 24px;
+    }
+}
+
+/* For Large Devices (Desktops, more than 768px) */
+@media (min-width: 769px) {
+    .headermenu {
+        padding: 0 110px;
+    }
+
+    .logocontainer img {
+        width: 114px;
+        height: 41px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .contain {
+        width: 600px;
+        padding: 60px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .price {
+        font-size: 28px;
+    }
+}
